@@ -8,5 +8,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "mime": "^4.0.6",
+    "mime-types": "^2.1.35"
+  }
 }
