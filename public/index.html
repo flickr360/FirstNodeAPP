@@ -9,6 +9,11 @@
 
 <body>
     <h1>Welcome to the Node.js File Server</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="file">Choose a file to upload:</label>
+        <input type="file" name="file" id="file" required />
+        <button type="submit">Upload</button>
+    </form>
 </body>
 
 </html>
